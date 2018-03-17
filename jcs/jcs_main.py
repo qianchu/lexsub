@@ -6,7 +6,10 @@ import time
 import argparse
 import re
 import numpy
+import nltk
 
+nltk.download('wordnet')
+sys.path.append("/home/context-embed/lexsub/")
 from jcs.jcs_io import extract_word_weight
 
 from jcs.data.context_instance import ContextInstance
