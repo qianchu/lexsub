@@ -6,7 +6,7 @@ Used to compute GAP score for the LST ranking task
 import sys
 import random
 import re
-
+from jcs.evaluation import measures
 from jcs.evaluation.measures.generalized_average_precision import GeneralizedAveragePrecision
 
 
